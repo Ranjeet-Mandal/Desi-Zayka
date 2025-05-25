@@ -9,7 +9,8 @@ const Footer = ()=>{
         <div className="footer" id="footer">
             <div className="footer-content">
                 <div className="footer-content-left">
-                <img className="tomato" src={assets.logo} alt="" />
+                     <h2 className="zayka">Desi Zaayka</h2>
+                {/* <img className="tomato" src={assets.logo} alt="" /> */}
                 <p>Our mission is to satisfy your cravings and elevate your dinning experience. one delicious meal at a time.</p>
                 <div className="social-media-icons">
                     <img src={assets.facebook_icon} alt="" />
@@ -29,11 +30,11 @@ const Footer = ()=>{
                 <div className="footer-content-right">
                     <h2>GET IN TOUCH</h2>
                     <li>+93-0050-50</li>
-                    <li>Rj@gmail.com</li>
+                    <li>zayka@gmail.com</li>
                 </div>
             </div>
             <hr />
-            <p className="footer-copy-right">Copyright 2024 &copy; All Right Reserved </p>
+            <p className="footer-copy-right">Copyright 2025 &copy; All Right Reserved </p>
         </div>
     )
 }

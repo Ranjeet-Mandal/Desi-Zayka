@@ -4,8 +4,9 @@
     align-items: center;
     padding: 20px 0;
 }
-.navbar .logo{
-    width: 150px;
+.navbar .zayka{
+    color: tomato;
+    border: none;
 }
 .navbar-menu{
     display: flex;

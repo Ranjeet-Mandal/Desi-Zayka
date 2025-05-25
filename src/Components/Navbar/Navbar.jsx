@@ -12,7 +12,8 @@ const Navbar = ({setShowLogin})=>{
     const{getTotalCartAmount} = useContext(StoreContext);
 
     return <div className="navbar">
-        <img src={assets.logo} alt="" className="logo" />
+        <h2 className="zayka">Desi Zaayka</h2>
+        {/* <img src={assets.logo} alt="" className="logo" /> */}
         <ul className="navbar-menu">
             <Link to='/' onClick={()=> setMenu("home")} className={menu==="home"?"active":""}>Home</Link>
             <a href="#explore-menu" onClick={()=> setMenu("menu")} className={menu==="menu"?"active":""}>Menu</a>
